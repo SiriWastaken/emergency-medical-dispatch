@@ -1,0 +1,20 @@
+[package]
+name = "dispatch-desk"
+version = "0.1.0"
+description = "Local-first EMD workflow and call narrative desk (fictional demo data)"
+edition = "2021"
+
+[lib]
+name = "dispatch_desk_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+rusqlite = { version = "0.37", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

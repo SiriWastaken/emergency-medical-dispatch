@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+:root {
+  --bg: #0b1220;
+  --surface: #101a2e;
+  --surface-2: #16233b;
+  --border: #243350;
+  --text: #dbe5f5;
+  --muted: #93a4c0;
+  --accent: #4da3ff;
+  --accent-bg: #2563c9;
+  --danger: #ff8a8a;
+  --warn: #f2c14e;
+  --ok: #5fd39a;
+}
+:root[data-theme='light'] {
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --surface-2: #eaeff7;
+  --border: #c5d0e2;
+  --text: #14213a;
+  --muted: #4d5c76;
+  --accent: #1d5fc4;
+  --accent-bg: #1d5fc4;
+  --danger: #b42318;
+  --warn: #8a5a00;
+  --ok: #17784a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-bg: var(--accent-bg);
+  --color-danger: var(--danger);
+  --color-warn: var(--warn);
+  --color-ok: var(--ok);
+  --font-sans: ui-sans-serif, -apple-system, 'SF Pro Text', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+  --radius-sm: 3px;
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.4 var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+input, textarea, pre, .selectable { user-select: text; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+@layer components {
+  .btn { @apply inline-flex items-center gap-1.5 rounded-sm border border-line bg-surface-2 px-2.5 py-1 text-[13px] text-ink hover:border-accent disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply border-accent-bg bg-accent-bg text-white hover:brightness-110; }
+  .btn-danger { @apply border-danger text-danger; }
+  .input { @apply w-full rounded-sm border border-line bg-bg px-2 py-1 text-[13px] text-ink placeholder:text-muted disabled:opacity-60; }
+  .label { @apply mb-0.5 block text-[11px] font-semibold uppercase tracking-wide text-muted; }
+  .panel-title { @apply border-b border-line px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-muted; }
+  .kbd { @apply rounded-sm border border-line bg-surface-2 px-1 font-mono text-[11px] text-ink; }
+}

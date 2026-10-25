@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window: core events, save/open dialogs, and writing only to files the user picked in a save dialog.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-destroy",
+    "dialog:allow-save",
+    "dialog:allow-open",
+    "fs:allow-write-text-file"
+  ]
+}

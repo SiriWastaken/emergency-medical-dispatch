@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "note": "Complaint labels are original, plain-language selection categories. They are not validated triage classifications and carry no dispatch codes or priorities.",
+  "entries": [
+    {
+      "id": "ems-cardiac-arrest-unresponsive-person",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Cardiac arrest / unresponsive person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-chest-pain-or-cardiac-symptoms",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Chest pain or cardiac symptoms",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-palpitations-or-irregular-heartbeat",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Palpitations or irregular heartbeat",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-fainting-or-near-fainting",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Fainting or near-fainting",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-blood-pressure-concern",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Blood pressure concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-pale-cold-or-clammy-person",
+      "service": "EMS",
+      "group": "Cardiac & circulatory",
+      "label": "Pale, cold or clammy person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-breathing-difficulty",
+      "service": "EMS",
+      "group": "Breathing",
+      "label": "Breathing difficulty",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-choking",
+      "service": "EMS",
+      "group": "Breathing",
+      "label": "Choking",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-wheezing-or-asthma-type-complaint",
+      "service": "EMS",
+      "group": "Breathing",
+      "label": "Wheezing or asthma-type complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-cough-or-suspected-respiratory-infection",
+      "service": "EMS",
+      "group": "Breathing",
+      "label": "Cough or suspected respiratory infection",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-smoke-or-fume-inhalation",
+      "service": "EMS",
+      "group": "Breathing",
+      "label": "Smoke or fume inhalation",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-abdominal-pain",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Abdominal pain",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-nausea-or-vomiting",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Nausea or vomiting",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-diarrhea",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Diarrhea",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-vomiting-or-passing-blood",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Vomiting or passing blood",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-back-or-flank-pain",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Back or flank pain",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-groin-pain-or-suspected-hernia",
+      "service": "EMS",
+      "group": "Abdominal & digestive",
+      "label": "Groin pain or suspected hernia",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-seizure-or-convulsions",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Seizure or convulsions",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-stroke-like-symptoms",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Stroke-like symptoms",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-severe-headache",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Severe headache",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-dizziness-or-vertigo",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Dizziness or vertigo",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-numbness-or-weakness",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Numbness or weakness",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-altered-mental-status-or-confusion",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Altered mental status or confusion",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-fainting-or-loss-of-consciousness",
+      "service": "EMS",
+      "group": "Neurological",
+      "label": "Fainting or loss of consciousness",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-suicidal-thoughts-or-self-harm",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Suicidal thoughts or self-harm",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-psychiatric-or-behavioral-crisis",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Psychiatric or behavioral crisis",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-agitated-or-combative-person",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Agitated or combative person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-anxiety-or-panic-attack",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Anxiety or panic attack",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-hallucinations-or-delusions",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Hallucinations or delusions",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-welfare-concern-with-medical-component",
+      "service": "EMS",
+      "group": "Psychiatric & behavioral",
+      "label": "Welfare concern with medical component",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-overdose-or-poisoning",
+      "service": "EMS",
+      "group": "Overdose, poisoning & substances",
+      "label": "Overdose or poisoning",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-alcohol-intoxication",
+      "service": "EMS",
+      "group": "Overdose, poisoning & substances",
+      "label": "Alcohol intoxication",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-drug-withdrawal",
+      "service": "EMS",
+      "group": "Overdose, poisoning & substances",
+      "label": "Drug withdrawal",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-child-ingestion",
+      "service": "EMS",
+      "group": "Overdose, poisoning & substances",
+      "label": "Child ingestion",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-carbon-monoxide-exposure",
+      "service": "EMS",
+      "group": "Overdose, poisoning & substances",
+      "label": "Carbon monoxide exposure",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-bleeding",
+      "service": "EMS",
+      "group": "Bleeding & wounds",
+      "label": "Bleeding",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-nosebleed",
+      "service": "EMS",
+      "group": "Bleeding & wounds",
+      "label": "Nosebleed",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-laceration-or-cut",
+      "service": "EMS",
+      "group": "Bleeding & wounds",
+      "label": "Laceration or cut",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-amputation",
+      "service": "EMS",
+      "group": "Bleeding & wounds",
+      "label": "Amputation",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-wound-infection-concern",
+      "service": "EMS",
+      "group": "Bleeding & wounds",
+      "label": "Wound infection concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-traumatic-injury",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Traumatic injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-fall",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Fall",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-head-injury",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Head injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-back-or-neck-injury",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Back or neck injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-suspected-broken-bone",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Suspected broken bone",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-sports-injury",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Sports injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-assault-victim-medical",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Assault victim (medical)",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-stab-or-gunshot-wound",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Stab or gunshot wound",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-vehicle-collision-injuries",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Vehicle collision injuries",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-crush-or-entrapment-injury",
+      "service": "EMS",
+      "group": "Trauma",
+      "label": "Crush or entrapment injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-burns",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Burns",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-electrical-injury",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Electrical injury",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-heat-related-illness",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Heat-related illness",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-cold-exposure",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Cold exposure",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-drowning-or-water-incident",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Drowning or water incident",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-animal-bite-or-sting",
+      "service": "EMS",
+      "group": "Burns & environment",
+      "label": "Animal bite or sting",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-pregnancy-or-childbirth",
+      "service": "EMS",
+      "group": "Pregnancy & childbirth",
+      "label": "Pregnancy or childbirth",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-labor",
+      "service": "EMS",
+      "group": "Pregnancy & childbirth",
+      "label": "Labor",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-pregnancy-complication-or-bleeding",
+      "service": "EMS",
+      "group": "Pregnancy & childbirth",
+      "label": "Pregnancy complication or bleeding",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-postpartum-concern",
+      "service": "EMS",
+      "group": "Pregnancy & childbirth",
+      "label": "Postpartum concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-newborn-or-infant-concern",
+      "service": "EMS",
+      "group": "Pregnancy & childbirth",
+      "label": "Newborn or infant concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-allergic-reaction",
+      "service": "EMS",
+      "group": "Allergic & metabolic",
+      "label": "Allergic reaction",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-diabetic-emergency",
+      "service": "EMS",
+      "group": "Allergic & metabolic",
+      "label": "Diabetic emergency",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-fever",
+      "service": "EMS",
+      "group": "Allergic & metabolic",
+      "label": "Fever",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-dehydration",
+      "service": "EMS",
+      "group": "Allergic & metabolic",
+      "label": "Dehydration",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-general-illness",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "General illness",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-sick-person-unspecified",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Sick person (unspecified)",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-eye-problem",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Eye problem",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-ear-nose-or-throat-problem",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Ear, nose or throat problem",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-dental-problem",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Dental problem",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-urinary-problem",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Urinary problem",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-medical-alarm-activation",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Medical alarm activation",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-person-down-cause-unknown",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Person down (cause unknown)",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-non-emergency-transport-request",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Non-emergency transport request",
+      "status": "pending-validation"
+    },
+    {
+      "id": "ems-other-medical-complaint",
+      "service": "EMS",
+      "group": "General & other",
+      "label": "Other medical complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-assault-or-reported-violence",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Assault or reported violence",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-domestic-disturbance",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Domestic disturbance",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-threats-or-harassment",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Threats or harassment",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-robbery",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Robbery",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-sexual-assault-report",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Sexual assault report",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-abduction-or-unlawful-confinement",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Abduction or unlawful confinement",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-weapon-concern",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Weapon concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-shots-heard",
+      "service": "PD",
+      "group": "Crimes against persons",
+      "label": "Shots heard",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-theft-or-shoplifting",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Theft or shoplifting",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-break-and-enter",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Break and enter",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-property-damage-or-vandalism",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Property damage or vandalism",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-vehicle-theft",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Vehicle theft",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-fraud-or-scam-report",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Fraud or scam report",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-suspected-arson",
+      "service": "PD",
+      "group": "Property crime",
+      "label": "Suspected arson",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-traffic-collision",
+      "service": "PD",
+      "group": "Traffic",
+      "label": "Traffic collision",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-impaired-or-dangerous-driving-report",
+      "service": "PD",
+      "group": "Traffic",
+      "label": "Impaired or dangerous driving report",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-hit-and-run",
+      "service": "PD",
+      "group": "Traffic",
+      "label": "Hit and run",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-road-hazard-or-debris",
+      "service": "PD",
+      "group": "Traffic",
+      "label": "Road hazard or debris",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-parking-complaint",
+      "service": "PD",
+      "group": "Traffic",
+      "label": "Parking complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-suspicious-activity",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Suspicious activity",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-trespassing",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Trespassing",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-public-disturbance",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Public disturbance",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-noise-complaint",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Noise complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-fight-in-progress",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Fight in progress",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-intoxicated-person",
+      "service": "PD",
+      "group": "Disorder",
+      "label": "Intoxicated person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-welfare-check",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Welfare check",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-missing-person",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Missing person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-found-person-or-property",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Found person or property",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-mental-health-related-police-request",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Mental-health-related police request",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-child-or-youth-concern",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Child or youth concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-unwanted-person",
+      "service": "PD",
+      "group": "Persons",
+      "label": "Unwanted person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-alarm-activation",
+      "service": "PD",
+      "group": "Other",
+      "label": "Alarm activation",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-assist-other-agency",
+      "service": "PD",
+      "group": "Other",
+      "label": "Assist other agency",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-animal-complaint",
+      "service": "PD",
+      "group": "Other",
+      "label": "Animal complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "pd-other-police-complaint",
+      "service": "PD",
+      "group": "Other",
+      "label": "Other police complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-structure-fire",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Structure fire",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-vehicle-fire",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Vehicle fire",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-brush-or-grass-fire",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Brush or grass fire",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-smoke-or-burning-smell",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Smoke or burning smell",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-fire-alarm-activation",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Fire alarm activation",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-chimney-fire",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Chimney fire",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-refuse-or-dumpster-fire",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Refuse or dumpster fire",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-outdoor-burning-complaint",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Outdoor burning complaint",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-explosion",
+      "service": "FD",
+      "group": "Fire",
+      "label": "Explosion",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-carbon-monoxide-alarm",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Carbon monoxide alarm",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-hazardous-material-concern",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Hazardous-material concern",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-gas-leak-or-odor",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Gas leak or odor",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-electrical-hazard",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Electrical hazard",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-downed-power-lines",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Downed power lines",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-fuel-spill",
+      "service": "FD",
+      "group": "Hazards",
+      "label": "Fuel spill",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-vehicle-collision-requiring-fire-service-assistance",
+      "service": "FD",
+      "group": "Rescue",
+      "label": "Vehicle collision requiring fire-service assistance",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-rescue-or-trapped-person",
+      "service": "FD",
+      "group": "Rescue",
+      "label": "Rescue or trapped person",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-elevator-rescue",
+      "service": "FD",
+      "group": "Rescue",
+      "label": "Elevator rescue",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-water-or-ice-rescue",
+      "service": "FD",
+      "group": "Rescue",
+      "label": "Water or ice rescue",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-confined-space-or-high-angle-rescue",
+      "service": "FD",
+      "group": "Rescue",
+      "label": "Confined-space or high-angle rescue",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-flooding-or-water-problem",
+      "service": "FD",
+      "group": "Service",
+      "label": "Flooding or water problem",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-public-assist",
+      "service": "FD",
+      "group": "Service",
+      "label": "Public assist",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-lift-assist",
+      "service": "FD",
+      "group": "Service",
+      "label": "Lift assist",
+      "status": "pending-validation"
+    },
+    {
+      "id": "fd-other-fire-service-incident",
+      "service": "FD",
+      "group": "Service",
+      "label": "Other fire-service incident",
+      "status": "pending-validation"
+    }
+  ]
+}
